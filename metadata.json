@@ -1,0 +1,6 @@
+{
+  "name": "WIDBY",
+  "description": "Streak tracking through interactive homescreen widgets with manual tap counters and auto daily counters.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

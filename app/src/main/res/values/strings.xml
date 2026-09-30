@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WIDBY</string>
+    <string name="widget_streak_description">Interactive single streak counter with instant tap or auto daily increment</string>
+    <string name="widget_multi_streak_description">Dashboard showing multiple streak counters on your homescreen</string>
+</resources>

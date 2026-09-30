@@ -1,0 +1,44 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer flame glow -->
+    <path
+        android:pathData="M54,22 C49,32 40,38 40,51 C40,64 50,73 54,73 C58,73 68,64 68,51 C68,39 60,33 54,22 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="22"
+                android:endX="54"
+                android:endY="73"
+                android:type="linear">
+                <item android:color="#FF9100" android:offset="0.0" />
+                <item android:color="#FF3D00" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Inner bright core flame -->
+    <path
+        android:pathData="M54,42 C51.5,47 47,51 47,57 C47,63 51,68 54,68 C57,68 61,63 61,57 C61,52 57.5,47 54,42 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="42"
+                android:endX="54"
+                android:endY="68"
+                android:type="linear">
+                <item android:color="#FFFF00" android:offset="0.0" />
+                <item android:color="#FF9100" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Widget counter notch dot indicator -->
+    <path
+        android:pathData="M48,78 A3,3 0 1,1 48,84 A3,3 0 1,1 48,78 Z"
+        android:fillColor="#00E5FF" />
+    <path
+        android:pathData="M57,78 A3,3 0 1,1 57,84 A3,3 0 1,1 57,78 Z"
+        android:fillColor="#00E5FF" />
+</vector>
